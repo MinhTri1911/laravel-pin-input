@@ -90,7 +90,7 @@ export default {
                 if (pinInputs.value[index]) {
                     pinInputs.value[index].inputValue  = digit
                     pinValues.value[index] = digit
-                    handlePinInput(index)
+                    handlePinInput(index, digit)
                 }
             })
         }
